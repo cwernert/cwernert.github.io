@@ -1,0 +1,587 @@
+html,
+body,
+.LRx,
+.LRdi,
+.LRb,
+.LRda,
+.LRdu,
+.LRdv,
+.LRdd,
+.LRdw,
+.LRdx,
+.LRba,
+.hbFKRW,
+.eFJONy,
+.kqHPFE,
+.kTXnEm>div,
+.pane.right.views,
+section.filters header,
+section.user_filters header,
+section.incidents header,
+#main_panes a,
+header#branding_header,
+#branding_header div,
+#branding_header button,
+table[data-garden-id="tables.table"],
+thead[data-garden-id="tables.head"],
+tr[data-garden-id="tables.header_row"],
+th[data-garden-id="tables.header_cell"],
+td,
+#main_panes a.jydokf:hover,
+#main_panes a.jydokf:active,
+#main_panes a.jydokf:focus,
+.bikSHg,
+.zd-searchmenu-base,
+.user-picker-menu .zd-menu-footer,
+.ccs-menu .zd-menu-footer,
+.requester-menu .zd-menu-footer,
+.hGHyLj,
+.with_omnipanel .workspace.apps,
+.with_omnipanel .workspace.apps:not(.ticket_edit_or_app),
+.workspace.apps:not(.ticket_editor_app) header,
+.edYNnc,
+.app_view_outer,
+.icLGBZ,
+article,
+.main_panes > header,
+.workspace > header{
+  background:#333;
+  background-color:#333;
+  color:#ddd;
+}
+#main_navigation,
+#main_navigation .toolbar_link.active-product-link,
+.icLGBZ{
+    background-color:rgba(240, 74, 0, .1)
+}
+#main_panes a>div,
+#branding_header button>div,
+.icLGBZ .zendesk-editor--rich-text-container,
+.icLGBZ ::-webkit-scrollbar-track,
+div[data-test-id="ticket-editor-app-icon-view"],
+button[data-test-id="omnichannel-channel-switcher-button"]>svg{
+  background:unset;
+  background-color:unset;
+}
+#main_panes a:hover,
+#main_panes a:active,
+#main_panes a:focus,
+#branding_header button:hover,
+#branding_header button:active,
+#branding_header button:focus,
+.laLYxN,
+.LRcc:hover > svg,
+#branding_header .eXHmlx:not([data-garden-container-id="containers.tooltip"])>div,
+#branding_header .eXHmlx:not([data-garden-container-id="containers.tooltip"])>div button,
+#branding_header .eXHmlx:not([data-garden-container-id="containers.tooltip"])>div div{
+    background:#444;
+    background-color:#444;
+}
+.cBuFak,
+.byATUj,
+.hKneHq > div:not(:focus-within) > svg,
+.user-picker-menu .add-user,
+.ccs-menu .add-user,
+.requester-menu .add-user,
+.lgmxoZ,
+.bHAqxp,
+.LRfe,
+.eSWfxH,
+.kWHJfL,
+.kWHJfL .StyledIcon-sc-19meqgg-0,
+.jvGXUh,
+.ebzQzi,
+.app_view_outer,
+.hMHLFe>span,
+.eFJONy svg,
+button[data-test-id="ticket-footer-post-save-actions-menu-button"]>span,
+.form_field label,
+.hYzrby,
+.bYrRLL,
+.lnDzQq,
+.dDQjDM,
+.mFLpu,
+.fiCToh,
+::placeholder,
+.itcTQD,
+.LRcn,
+.eFRLap .sc-kjoXOD,
+.fjyCi,
+.fncFCZ,
+.bntORw,
+.fxWzfx > svg,
+.fxWzfx .sc-uJMKN,
+.LRbt > svg,
+.LRex,
+.LRdy,
+.LRgk,
+.LRge,
+h3.title,
+.jgSRLy,
+.jgSRLy:hover,
+.eidBRB,
+.hMHLFe .sc-cvbbAY,
+.zd-tag-close,
+.LRea,
+.fJayDt,
+.hnLSNi{
+    color:#aaa;
+}
+#support-extension-search span,
+.LRhk,
+.LRel,
+.LRdg{
+    color:#aaa!important;
+}
+.cBuFak:hover,
+.cBuFak:focus,
+.cBuFak:active,
+.kWHJfL:hover,
+.kWHJfL:active,
+.kWHJfL:focus,
+.kWHJfL:hover .StyledIcon-sc-19meqgg-0,
+.kWHJfL:active .StyledIcon-sc-19meqgg-0,
+.kWHJfL:focus .StyledIcon-sc-19meqgg-0,
+.cBuFak[data-garden-focus-visible],
+.zd-tag-close:hover,
+.hsZegE blockquote p{
+    color:#ddd;
+}
+.jvGXUh:hover,
+.jvGXUh:active,
+.jvGXUh:focus,
+.ebzQzi:hover,
+.ebzQzi:active,
+.ebzQzi:focus,
+.zd-tag-menu-root,
+.zd-tag-item,
+input{
+    color:#aaa;
+    background-color:unset
+}
+a[data-test-id="views_views-list_footer"]:hover,
+a[data-test-id="views_views-list_footer"]:active,
+a[data-test-id="views_views-list_footer"]:focus{
+    background-color:transparent!important;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #333;
+}
+::-webkit-scrollbar-thumb{
+    background: #555;
+    border-radius:99999px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #666;
+}
+.gpYxgl .sc-chPdSV:first-of-type:hover,
+.gpYxgl .sc-chPdSV:first-of-type:active,
+.gpYxgl .sc-chPdSV:first-of-type:focus,
+.eaItv .sc-chPdSV:first-of-type:hover,
+.eaItv .sc-chPdSV:first-of-type:active,
+.eaItv .sc-chPdSV:first-of-type:focus,
+.jqmLVV .sc-chPdSV:first-of-type,
+.jqmLVV .sc-chPdSV:first-of-type:hover,
+.jqmLVV .sc-chPdSV:first-of-type:active,
+.jqmLVV .sc-chPdSV:first-of-type:focus{
+    box-shadow:#f04a00 3px 0px 0px 0px inset;
+}
+.blazcU,
+.dKCcTx,
+.gYTjce,
+.xFTND:hover > div{
+    background-color:#f04a00;
+}
+.blazcU:hover,
+.blazcU:active,
+.blazcU:focus,
+.dKCcTx:hover,
+.dKCcTx:active,
+.dKCcTx:focus{
+    background-color:#bd3c00;
+}
+/*tickets listed in view*/
+.eaItv:hover td,
+.eaItv:active td,
+.eaItv:focus td,
+#main_panes .eaItv:hover a,
+#main_panes .eaItv:active a,
+#main_panes .eaItv:focus a{
+    background-color:#444;
+}
+div[data-garden-id="dropdowns.menu_wrapper"] ul,
+div[data-garden-id="dropdowns.menu_wrapper"] li,
+.DVaoW,
+.cKiAwL{
+    background-color:#333;
+    color:#aaa;
+}
+div[data-garden-id="dropdowns.menu_wrapper"] li:hover,
+div[data-garden-id="dropdowns.menu_wrapper"] li:active,
+div[data-garden-id="dropdowns.menu_wrapper"] li:focus{
+        background-color:#444;
+}
+div[data-garden-id="dropdowns.menu_wrapper"] li div{
+    background-color:unset!important;
+}
+.jZsJOj{
+    border-left:none;
+}
+button[data-test-id="ticket-footer-post-save-actions-menu-button"],
+.main_panes > header .pane .btn:active, .main_panes > header .pane .btn.active,
+.main_panes > header .pane .btn:hover,
+.workspace > header .pane .btn:active,
+.workspace > header .pane .btn.active,
+.workspace > header .pane .btn:hover,
+.DVaoW:hover,
+.dWQqfo:hover{
+    background-color:#555;
+}
+button[data-test-id="ticket-footer-post-save-actions-menu-button"]:hover,
+button[data-test-id="ticket-footer-post-save-actions-menu-button"]:active,
+button[data-test-id="ticket-footer-post-save-actions-menu-button"]:focus{
+    background-color:#666;
+}
+.hMHLFe,
+.cCKWMv,
+.bLWiol,
+.zLLnd,
+.fGPLUj,
+.main_panes > header .pane .btn,
+.workspace > header .pane .btn{
+    background:unset;
+    color:#aaa;
+}
+article div,
+article div span,
+.LRca:hover > svg,
+.LRca:active > svg,
+.LRca:focus > svg,
+.mFLpu:hover{
+    color:#ddd!important;
+}
+article div a,
+div.ck-content a{
+    background-color:unset!important;
+    color:#8ab4f8!important
+}
+/*inline internal notes*/
+.hsZegE{
+    border:1px solid #f04a00;
+    background-color:rgba(240, 74, 0, .1)
+}
+#support-extension-search>div,
+#support-extension-search>div input{
+    background-color:#333!important;
+    color:#aaa!important;
+}
+.mFLpu:hover,
+.hArNIY{
+    background-color:#555!important;
+}
+.mFLpu:active,
+.mFLpu[aria-pressed="true"],
+.mFLpu[aria-pressed="mixed"],
+.eFRLap{
+    color:#aaa;
+    background-color:#333;
+    border: 1px solid #f04a00;
+}
+.eTXkgS{
+    color:#aaa;
+    margin-right:15px;
+}
+.eTXkgS:hover,
+.eTXkgS:active,
+.eTXkgS:focus{
+    color:#ddd;
+    background:transparent;
+}
+
+/*border colours*/
+.LRen,
+.LReh,
+.LRch,
+.kqHPFE,
+.LRe,
+.jvGXUh,
+.ebzQzi,
+.kTXnEm>div,
+.eTXkgS,
+.hFMNea,
+.fNgTOj,
+.eaItv,
+.zd-tag-menu-root,
+.zd-tag-item,
+input,
+#closeButtonWrapper,
+.jDKDWo ~ .StyledRadioLabel-sc-1aq2e5t-0::before,
+.main_panes > header,
+.workspace > header,
+.kWHJfL,
+.jZsJOj,
+.hMHLFe,
+.cCKWMv,
+.bLWiol,
+.zLLnd,
+.fGPLUj,
+.main_panes > header .pane .btn,
+.workspace > header .pane .btn,
+.form_field.requester .zd-searchmenu-base,
+.ticket-sidebar .property_box,
+.LRfe,
+.header-0-3-3,
+.grid-main-conversation-panel .pane.right.section,
+.hGHyLj,
+.LRfz,
+.LRgr,
+.bIQlRA,
+.LRat,
+.LRas,
+.eXHmlx>div,
+.LRfg,
+.LRfx,
+.LRgk,
+.LRfa,
+.LRdc,
+.LRdt{
+    border-color:#666;
+}
+#support-extension-search>div{
+    border-color:#666!important;
+}
+.lgmxoZ:focus{
+    border:2px solid rgba(240, 74, 0, .1);
+}
+.LRe{
+    border-bottom:0
+}
+#branding_header{
+    border-bottom:1px solid #666;
+}
+/*these ones are also borders, its just being difficult because Zendesk*/
+.fiNJsl th::before,
+.eNGQxg > hr,
+.bWQhoK{
+    background-color:#666;
+}
+.gdirqa{
+    outline:1px solid #666!important;
+}
+
+/*border hover colours*/
+.zd-tag-menu-root:hover,
+.zd-tag-menu-root:active,
+.zd-tag-menu-root:focus,
+.zd-tag-item:hover,
+.zd-tag-item:active,
+.zd-tag-item:focus,
+input:hover,
+input:active,
+input:focus,
+.jvGXUh:hover,
+.jvGXUh:active,
+.jvGXUh:focus,
+.ebzQzi:hover,
+.ebzQzi:active,
+.ebzQzi:focus,
+.jDKDWo ~ .StyledRadioLabel-sc-1aq2e5t-0:hover::before,
+.jDKDWo ~ .StyledRadioLabel-sc-1aq2e5t-0:active::before,
+.jDKDWo ~ .StyledRadioLabel-sc-1aq2e5t-0:focus::before,
+.eaItv:hover,
+.eaItv:active,
+.eaItv:focus,
+.kWHJfL:hover,
+.kWHJfL:active,
+.kWHJfL:focus,
+.eFJONy:hover,
+.eFJONy:active,
+.eFJONy:focus,
+.kqHPFE:hover,
+.kqHPFE:active,
+.kqHPFE:focus,
+.form_field.requester .zd-searchmenu-base:hover,
+.form_field.requester .zd-searchmenu-base:active,
+.form_field.requester .zd-searchmenu-base:focus,
+.zLLnd:hover,
+.zLLnd:active,
+.zLLnd:focus,
+.editable:focus,
+.editable input[type="text"]:focus,
+.focused,
+.token_list.ui-state-focus,
+.ui-selectmenu:focus,
+.zd-state-focus .zd-selectmenu-base,
+.zd-state-focus .zd-searchmenu-base,
+.eTXkgS:hover,
+.eTXkgS:active,
+.eTXkgS:focus,
+.dbvmnI:focus,
+.dbvmnI[data-garden-focus-visible="true"],
+.cCKWMv:focus,
+.cCKWMv[data-garden-focus-visible="true"],
+.zd-tag-menu-root.zd-state-focus,
+.cCKWMv,
+.cCKWMv:hover{
+    border-color:#aaa;
+}
+.gdirqa:hover,
+.gdirqa:active,
+.gdirqa:focus,
+.gdirqa:focus-within,
+.icLGBZ:hover,
+.icLGBZ:active,
+.icLGBZ:focus,
+.icLGBZ:focus-within{
+    outline:1px solid #ddd!important;
+}
+.gdirqa:focus-within,
+.icLGBZ:focus-within{
+    border:3px solid #666;
+}
+
+.zLLnd:focus,
+.zLLnd[data-garden-focus-visible="true"],
+.editable:focus,
+.editable input[type="text"]:focus,
+.focused,
+.token_list.ui-state-focus,
+.ui-selectmenu:focus,
+.zd-state-focus .zd-selectmenu-base,
+.zd-state-focus .zd-searchmenu-base,
+.omnipanel-selector,
+.dXORFc,
+.cCKWMv:focus,
+.cCKWMv[data-garden-focus-visible="true"],
+.zd-tag-menu-root.zd-state-focus,
+.cCKWMv{
+    box-shadow:none;
+}
+label[data-garden-id="forms.checkbox_label"]::before{
+    background-color:#333!important;
+    border-radius:9999px!important;
+}
+.apps header{
+    border:0
+}
+button[data-test-id="close-button"]>svg>path{
+    stroke:#aaa;
+}
+button[data-test-id="close-button"]:hover,
+button[data-test-id="close-button"]:active,
+button[data-test-id="close-button"]:focus{
+    background:unset!important;
+    background-color:unset!important;
+}
+.LRdo:hover > svg,
+.LRdo:active > svg,
+.LRdo:focus > svg{
+    background-color:#666;
+}
+button[data-test-id="close-button"]:hover>svg>path,
+button[data-test-id="close-button"]:active>svg>path,
+button[data-test-id="close-button"]:focus>svg>path{
+    stroke:#ddd;
+}
+
+/*inline Slack thread side conversations*/
+.hkZiSy{
+    border-color:#666;
+    background-color:#444
+}
+.hkZiSy:hover,
+.hkZiSy:active,
+.hkZiSy:focus{
+    background-color:#555;
+}
+.jgSRLy{
+    border:1px solid #aaa;
+    background-color:#666;
+}
+
+/*inline replies from non requester*/
+.eCiQCX{
+    background-color:#444;
+    border-color:#f04a00;
+}
+
+/*submit buttons*/
+.dHPFUr,
+.ccszkQ{
+    background-color:#555;
+}
+.dHPFUr:hover,
+.dHPFUr:active,
+.dHPFUr:focus,
+.ccszkQ:hover,
+.ccszkQ:active,
+.ccszkQ:focus{
+    background-color:#666;
+    outline:0;
+    outline-offset:0;
+}
+
+/*public reply internal note menu*/
+.fsZyAV,
+.bvNpkX > *{
+    border-color:#aaa
+}
+.dxvWxd,
+.leGSvD{ /*tick icon*/
+    color:#f04a00
+}
+.hxWkPq:first-child,
+.gdvOSR:first-child,
+.fsZyAV{
+    margin:0;
+}
+.doeIuf{
+    margin-left:2px;
+}
+button[data-test-id="omnichannel-channel-switcher-button"][data-channel="web"]>svg>g>path:last-child,
+.doeIuf li:first-child .lhjUMS>svg>g>path:last-child{
+    fill:#aaa
+}
+.doeIuf:hover,
+.hoqUPn{
+    background-color:#333!important
+}
+.bzzUiA:hover,
+.hoqUPn:hover{
+    background-color:#444!important
+}
+
+/*add link menu*/
+.cjLWRl div{
+    background:#333
+}
+.dEuYUf,
+.cjLWRl div button{
+    color:#aaa
+}
+.dEuYUf:hover,
+.dEuYUf:active,
+.dEuYUf:focus,
+.kxrRkm,
+.dzlLUJ:hover,
+.dzlLUJ:active,
+.dzlLUJ:focus{
+    background-color:#444;
+    color:#aaa;
+}
+.kxrRkm:hover,
+.kxrRkm:active,
+.kxrRkm:focus{
+    background-color:#555;
+}
+.fGPLUj:hover,
+.fGPLUj:active,
+.fGPLUj:focus,
+.fGPLUj[data-garden-focus-visible="true"]{
+    border-color:#aaa;
+    box-shadow:none;
+}
