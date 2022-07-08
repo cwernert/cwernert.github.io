@@ -44,7 +44,8 @@ td,
 .icLGBZ,
 article,
 .main_panes > header,
-.workspace > header{
+.workspace > header,
+.imIcfQ{
   background:#333;
   background-color:#333;
   color:#ddd;
@@ -73,7 +74,10 @@ button[data-test-id="omnichannel-channel-switcher-button"]>svg{
 .LRcc:hover > svg,
 #branding_header .eXHmlx:not([data-garden-container-id="containers.tooltip"])>div,
 #branding_header .eXHmlx:not([data-garden-container-id="containers.tooltip"])>div button,
-#branding_header .eXHmlx:not([data-garden-container-id="containers.tooltip"])>div div{
+#branding_header .eXHmlx:not([data-garden-container-id="containers.tooltip"])>div div,
+.dYaThJ:hover,
+.dYaThJ:active,
+.dYaThJ:focus{
     background:#444;
     background-color:#444;
 }
@@ -126,7 +130,10 @@ h3.title,
 .fJayDt,
 .hnLSNi,
 .LRfx,
-.LRfs{
+.LRfs,
+.dpIHJq,
+.GIISO,
+.lnQTTz{
     color:#aaa;
 }
 #support-extension-search span,
@@ -146,7 +153,10 @@ h3.title,
 .kWHJfL:focus .StyledIcon-sc-19meqgg-0,
 .cBuFak[data-garden-focus-visible],
 .zd-tag-close:hover,
-.hsZegE blockquote p{
+.hsZegE blockquote p,
+.dYaThJ:hover,
+.dYaThJ:active,
+.dYaThJ:focus{
     color:#ddd;
 }
 .jvGXUh:hover,
@@ -351,7 +361,8 @@ input,
 .LRfa,
 .LRdc,
 .LRdt,
-.LRfn{
+.LRfn,
+.lnQTTz{
     border-color:#666;
 }
 #support-extension-search>div{
@@ -429,7 +440,12 @@ input:focus,
 .cCKWMv[data-garden-focus-visible="true"],
 .zd-tag-menu-root.zd-state-focus,
 .cCKWMv,
-.cCKWMv:hover{
+.cCKWMv:hover,
+.imIcfQ,
+.imIcfQ:hover,
+.dYaThJ:hover,
+.dYaThJ:active,
+.dYaThJ:focus{
     border-color:#aaa;
 }
 .gdirqa:hover,
@@ -461,7 +477,8 @@ input:focus,
 .cCKWMv:focus,
 .cCKWMv[data-garden-focus-visible="true"],
 .zd-tag-menu-root.zd-state-focus,
-.cCKWMv{
+.cCKWMv,
+.imIcfQ{
     box-shadow:none;
 }
 label[data-garden-id="forms.checkbox_label"]::before{
