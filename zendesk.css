@@ -156,7 +156,8 @@ h3.title,
 .hsZegE blockquote p,
 .dYaThJ:hover,
 .dYaThJ:active,
-.dYaThJ:focus{
+.dYaThJ:focus,
+div[data-test-id="ticket-rich-text-editor"]{
     color:#ddd;
 }
 .jvGXUh:hover,
