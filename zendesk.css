@@ -46,7 +46,11 @@ article,
 .main_panes > header,
 .workspace > header,
 .imIcfQ,
-.UaHPY{
+.UaHPY,
+.jsEQmk:disabled,
+.jsEQmk[aria-disabled="true"],
+.zLLnd:disabled,
+.zLLnd[aria-disabled="true"]{
   background:#333;
   background-color:#333;
   color:#ddd;
@@ -159,7 +163,8 @@ h3.title,
 .dYaThJ:hover,
 .dYaThJ:active,
 .dYaThJ:focus,
-div[data-test-id="ticket-rich-text-editor"]{
+div[data-test-id="ticket-rich-text-editor"],
+.bQVvDw .ck-content blockquote p{
     color:#ddd;
 }
 .jvGXUh:hover,
@@ -365,7 +370,11 @@ input,
 .LRdc,
 .LRdt,
 .LRfn,
-.lnQTTz{
+.lnQTTz,
+.jsEQmk:disabled,
+.jsEQmk[aria-disabled="true"],
+.zLLnd:disabled,
+.zLLnd[aria-disabled="true"]{
     border-color:#666;
 }
 #support-extension-search>div{
