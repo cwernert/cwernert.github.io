@@ -1,3 +1,5 @@
+/*@import url("https://cwernert.github.io/zendesk.css");*/
+
 html,
 body,
 .LRx,
@@ -52,8 +54,8 @@ article,
 .zLLnd:disabled,
 .zLLnd[aria-disabled="true"],
 .ticket .form_field.highlight_update:not(.fr-focus) .zd-tag-menu-root{
-  background:#333;
-  background-color:#333;
+  background:#222;
+  background-color:#222;
   color:#ddd;
 }
 #main_navigation,
@@ -84,8 +86,8 @@ button[data-test-id="omnichannel-channel-switcher-button"]>svg{
 .dYaThJ:hover,
 .dYaThJ:active,
 .dYaThJ:focus{
-    background:#444;
-    background-color:#444;
+    background:#333;
+    background-color:#333;
 }
 .cBuFak,
 .byATUj,
@@ -139,7 +141,8 @@ h3.title,
 .LRfs,
 .dpIHJq,
 .GIISO,
-.lnQTTz{
+.lnQTTz,
+.LReq{
     color:#aaa;
 }
 #support-extension-search span,
@@ -190,14 +193,14 @@ a[data-test-id="views_views-list_footer"]:focus{
     height: 10px;
 }
 ::-webkit-scrollbar-track{
-    background: #333;
+    background: #222;
 }
 ::-webkit-scrollbar-thumb{
-    background: #555;
+    background: #333;
     border-radius:99999px;
 }
 ::-webkit-scrollbar-thumb:hover{
-    background: #666;
+    background: #444;
 }
 .gpYxgl .sc-chPdSV:first-of-type:hover,
 .gpYxgl .sc-chPdSV:first-of-type:active,
@@ -232,19 +235,19 @@ a[data-test-id="views_views-list_footer"]:focus{
 #main_panes .eaItv:hover a,
 #main_panes .eaItv:active a,
 #main_panes .eaItv:focus a{
-    background-color:#444;
+    background-color:#333;
 }
 div[data-garden-id="dropdowns.menu_wrapper"] ul,
 div[data-garden-id="dropdowns.menu_wrapper"] li,
 .DVaoW,
 .cKiAwL{
-    background-color:#333;
+    background-color:#222;
     color:#aaa;
 }
 div[data-garden-id="dropdowns.menu_wrapper"] li:hover,
 div[data-garden-id="dropdowns.menu_wrapper"] li:active,
 div[data-garden-id="dropdowns.menu_wrapper"] li:focus{
-        background-color:#444;
+        background-color:#333;
 }
 div[data-garden-id="dropdowns.menu_wrapper"] li div{
     background-color:unset!important;
@@ -260,12 +263,12 @@ button[data-test-id="ticket-footer-post-save-actions-menu-button"],
 .workspace > header .pane .btn:hover,
 .DVaoW:hover,
 .dWQqfo:hover{
-    background-color:#555;
+    background-color:#444;
 }
 button[data-test-id="ticket-footer-post-save-actions-menu-button"]:hover,
 button[data-test-id="ticket-footer-post-save-actions-menu-button"]:active,
 button[data-test-id="ticket-footer-post-save-actions-menu-button"]:focus{
-    background-color:#666;
+    background-color:#555;
 }
 .hMHLFe,
 .cCKWMv,
@@ -297,19 +300,19 @@ div.ck-content a{
 }
 #support-extension-search>div,
 #support-extension-search>div input{
-    background-color:#333!important;
+    background-color:#222!important;
     color:#aaa!important;
 }
 .mFLpu:hover,
 .hArNIY{
-    background-color:#555!important;
+    background-color:#444!important;
 }
 .mFLpu:active,
 .mFLpu[aria-pressed="true"],
 .mFLpu[aria-pressed="mixed"],
 .eFRLap{
     color:#aaa;
-    background-color:#333;
+    background-color:#222;
     border: 1px solid #f04a00;
 }
 .eTXkgS{
@@ -377,11 +380,13 @@ input,
 .zLLnd:disabled,
 .zLLnd[aria-disabled="true"],
 .ticket .form_field.highlight_update:not(.fr-focus) .zd-tag-menu-root,
-.header-0-3-4{
-    border-color:#666;
+.header-0-3-4,
+.LRef,
+.LRfu{
+    border-color:#555;
 }
 #support-extension-search>div{
-    border-color:#666!important;
+    border-color:#555!important;
 }
 .lgmxoZ:focus{
     border:2px solid rgba(240, 74, 0, .1);
@@ -390,16 +395,16 @@ input,
     border-bottom:0
 }
 #branding_header{
-    border-bottom:1px solid #666;
+    border-bottom:1px solid #555;
 }
 /*these ones are also borders, its just being difficult because Zendesk*/
 .fiNJsl th::before,
 .eNGQxg > hr,
 .bWQhoK{
-    background-color:#666;
+    background-color:#555;
 }
 .gdirqa{
-    outline:1px solid #666!important;
+    outline:1px solid #555!important;
 }
 
 /*border hover colours*/
@@ -475,7 +480,7 @@ input:focus,
 }
 .gdirqa:focus-within,
 .icLGBZ:focus-within{
-    border:3px solid #666;
+    border:3px solid #555;
 }
 
 .zLLnd:focus,
@@ -500,7 +505,7 @@ input:focus,
     box-shadow:none!important;
 }
 label[data-garden-id="forms.checkbox_label"]::before{
-    background-color:#333!important;
+    background-color:#222!important;
     border-radius:9999px!important;
 }
 .apps header{
@@ -518,7 +523,7 @@ button[data-test-id="close-button"]:focus{
 .LRdo:hover > svg,
 .LRdo:active > svg,
 .LRdo:focus > svg{
-    background-color:#666;
+    background-color:#555;
 }
 button[data-test-id="close-button"]:hover>svg>path,
 button[data-test-id="close-button"]:active>svg>path,
@@ -528,29 +533,29 @@ button[data-test-id="close-button"]:focus>svg>path{
 
 /*inline Slack thread side conversations*/
 .hkZiSy{
-    border-color:#666;
-    background-color:#444
+    border-color:#555;
+    background-color:#333
 }
 .hkZiSy:hover,
 .hkZiSy:active,
 .hkZiSy:focus{
-    background-color:#555;
+    background-color:#444;
 }
 .jgSRLy{
     border:1px solid #aaa;
-    background-color:#666;
+    background-color:#555;
 }
 
 /*inline replies from non requester*/
 .eCiQCX{
-    background-color:#444;
+    background-color:#333;
     border-color:#f04a00;
 }
 
 /*submit buttons*/
 .dHPFUr,
 .ccszkQ{
-    background-color:#555;
+    background-color:#444;
 }
 .dHPFUr:hover,
 .dHPFUr:active,
@@ -558,7 +563,7 @@ button[data-test-id="close-button"]:focus>svg>path{
 .ccszkQ:hover,
 .ccszkQ:active,
 .ccszkQ:focus{
-    background-color:#666;
+    background-color:#555;
     outline:0;
     outline-offset:0;
 }
@@ -586,16 +591,16 @@ button[data-test-id="omnichannel-channel-switcher-button"][data-channel="web"]>s
 }
 .doeIuf:hover,
 .hoqUPn{
-    background-color:#333!important
+    background-color:#222!important
 }
 .bzzUiA:hover,
 .hoqUPn:hover{
-    background-color:#444!important
+    background-color:#333!important
 }
 
 /*add link menu*/
 .cjLWRl div{
-    background:#333
+    background:#222
 }
 .dEuYUf,
 .cjLWRl div button{
@@ -608,13 +613,13 @@ button[data-test-id="omnichannel-channel-switcher-button"][data-channel="web"]>s
 .dzlLUJ:hover,
 .dzlLUJ:active,
 .dzlLUJ:focus{
-    background-color:#444;
+    background-color:#333;
     color:#aaa;
 }
 .kxrRkm:hover,
 .kxrRkm:active,
 .kxrRkm:focus{
-    background-color:#555;
+    background-color:#444;
 }
 .fGPLUj:hover,
 .fGPLUj:active,
