@@ -89,6 +89,10 @@ button[data-test-id="omnichannel-channel-switcher-button"]>svg{
     background:#333;
     background-color:#333;
 }
+.highlighted ul{
+    background-color:#333!important;
+    border:1px solid #f04a00;
+}
 .cBuFak,
 .byATUj,
 .hKneHq > div:not(:focus-within) > svg,
@@ -142,7 +146,8 @@ h3.title,
 .dpIHJq,
 .GIISO,
 .lnQTTz,
-.LReq{
+.LReq,
+.iLkJLa .sc-jWBwVP{
     color:#aaa;
 }
 #support-extension-search span,
@@ -382,7 +387,8 @@ input,
 .ticket .form_field.highlight_update:not(.fr-focus) .zd-tag-menu-root,
 .header-0-3-4,
 .LRef,
-.LRfu{
+.LRfu,
+.LRec{
     border-color:#555;
 }
 #support-extension-search>div{
@@ -631,5 +637,17 @@ button[data-test-id="omnichannel-channel-switcher-button"][data-channel="web"]>s
 
 /* ticket notification */
 div[data-garden-id="notifications.alert"]{
-    margin:10px
+    margin:10px;
+    color:#aaa;
+    background-color:#222;
+    border: 1px solid #f04a00;
+}
+
+/* inline code */
+code,
+.jArfMU code,
+.bQVvDw .ck-content code{
+    background-color:#444;
+    color:#ddd;
+    border:1px solid #555
 }
