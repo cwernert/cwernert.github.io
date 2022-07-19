@@ -1,5 +1,6 @@
 /*@import url("https://cwernert.github.io/zendesk.css");*/
 
+
 html,
 body,
 .LRx,
@@ -650,4 +651,24 @@ code,
     background-color:#444;
     color:#ddd;
     border:1px solid #555
+}
+
+/* code block */
+.zendesk-editor--rich-text-comment pre,
+.markdown_formatting pre,
+.markdown_preview pre,
+.event .comment pre,
+.zd-comment.zd-comment-pre-styled pre{
+    background-color: #333!important;
+    border: 1px solid #aaa!important;
+    color: #ddd!important;
+}
+.zendesk-editor--rich-text-comment code,
+.markdown_formatting code,
+.markdown_preview code,
+.event .comment code,
+.zd-comment.zd-comment-pre-styled code{
+    background-color: #333!important;
+    border:0;
+    color: #ddd
 }
