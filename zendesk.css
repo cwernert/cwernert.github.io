@@ -148,14 +148,16 @@ h3.title,
 .GIISO,
 .lnQTTz,
 .LReq,
-.iLkJLa .sc-jWBwVP{
+.iLkJLa .sc-jWBwVP,
+.ticket_collision{
     color:#aaa;
 }
 #support-extension-search span,
 .LRhk,
 .LRel,
 .LRdg,
-.LReg{
+.LReg,
+.LRdf{
     color:#aaa!important;
 }
 .cBuFak:hover,
@@ -389,7 +391,9 @@ input,
 .header-0-3-4,
 .LRef,
 .LRfu,
-.LRec{
+.LRec,
+.gspCkD,
+.eFJONy{
     border-color:#555;
 }
 #support-extension-search>div{
@@ -658,7 +662,8 @@ code,
 .markdown_formatting pre,
 .markdown_preview pre,
 .event .comment pre,
-.zd-comment.zd-comment-pre-styled pre{
+.zd-comment.zd-comment-pre-styled pre,
+.jArfMU pre{
     background-color: #333!important;
     border: 1px solid #aaa!important;
     color: #ddd!important;
