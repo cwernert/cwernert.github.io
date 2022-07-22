@@ -1,0 +1,107 @@
+/*@import url("https://cwernert.github.io/async.css");*/
+
+html,
+body,
+a,
+button,
+.sidebar__link,
+.header__nav-link,
+.person__company-info,
+.person__info,
+.person__social,
+.editor__field,
+.textarea__input,
+.css-bg1rzq-control,
+.filters .label,
+.filters label{
+    color:#ddd;
+}
+.header__nav svg{
+    fill:#ddd;
+}
+html,
+body,
+#root,
+header.header,
+.comment__new .comment__form,
+.comment__reply .comment__form,
+.stats,
+.personal-profile__main,
+.body--alt,
+.markdown-help,
+.css-bg1rzq-control,
+.filters{
+    background-color: #222;
+}
+.comment__form .textarea__input,
+.editor__field,
+.textarea__input{
+    background-color: #222!important;
+}
+.sidebar__header,
+.footer,
+.search input,
+.entries__header,
+.inbox__entry,
+.directory-sidebar__header,
+.person,
+.personal-profile__main-bit__header{
+    background-color: #333;
+}
+.inbox__entry[data-read=true]{
+    background-color: #444;
+}
+.comment__new .comment__form,
+.comment__reply .comment__form,
+.comment__form .textarea__input,
+.sidebar__header,
+.sidebar__link,
+.search input,
+.directory-sidebar__header{
+    border:1px solid #555
+}
+.directory-sidebar__link,
+.directory-sidebar__section,
+.personal-profile__main-bit__header,
+.personal-profile__main-bit,
+.markdown-help,
+.filters,
+.filters div,
+.editor__field,
+.textarea__input,
+.css-bg1rzq-control{
+    border-color:#555;
+}
+
+
+textarea.textarea__input {
+    overflow-y: scroll !important;
+}
+.textarea__highlighter, textarea.textarea__input {
+    min-height: 200px;
+    height: 800px !important;
+    background: #35363A !important;
+    color: #f0f0f0 !important;
+}
+.textarea__suggestions {
+    top: auto !important;
+    margin-top: 0 !important;
+    background: #35363A !important;
+    color: #f0f0f0 !important;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #222;
+}
+::-webkit-scrollbar-thumb{
+    background: #333;
+    border-radius:99999px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #444;
+}
