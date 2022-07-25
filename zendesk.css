@@ -1,6 +1,5 @@
 /*@import url("https://cwernert.github.io/zendesk.css");*/
 
-
 html,
 body,
 .LRx,
@@ -149,7 +148,10 @@ h3.title,
 .lnQTTz,
 .LReq,
 .iLkJLa .sc-jWBwVP,
-.ticket_collision{
+.ticket_collision,
+.LRcw,
+.iDSXyx,
+.liuBOZ{
     color:#aaa;
 }
 #support-extension-search span,
@@ -393,7 +395,11 @@ input,
 .LRfu,
 .LRec,
 .gspCkD,
-.eFJONy{
+.eFJONy,
+.LRcr,
+.LRfp,
+.LRdn,
+.LRgd{
     border-color:#555;
 }
 #support-extension-search>div{
@@ -676,4 +682,10 @@ code,
     background-color: #333!important;
     border:0;
     color: #ddd
+}
+
+/* slack side conversations */
+
+div[data-test-id="sc-thread-container"]{
+    color:#222;
 }
