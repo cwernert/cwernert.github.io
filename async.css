@@ -13,7 +13,8 @@ button,
 .textarea__input,
 .css-bg1rzq-control,
 .filters .label,
-.filters label{
+.filters label,
+.content{
     color:#ddd;
 }
 .header__nav svg{
@@ -45,7 +46,9 @@ header.header,
 .inbox__entry,
 .directory-sidebar__header,
 .person,
-.personal-profile__main-bit__header{
+.personal-profile__main-bit__header,
+.entry,
+.entry[data-read=true]{
     background-color: #333;
 }
 .inbox__entry[data-read=true]{
@@ -69,7 +72,8 @@ header.header,
 .filters div,
 .editor__field,
 .textarea__input,
-.css-bg1rzq-control{
+.css-bg1rzq-control,
+.comment{
     border-color:#555;
 }
 
