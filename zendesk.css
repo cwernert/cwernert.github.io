@@ -53,7 +53,8 @@ article,
 .jsEQmk[aria-disabled="true"],
 .zLLnd:disabled,
 .zLLnd[aria-disabled="true"],
-.ticket .form_field.highlight_update:not(.fr-focus) .zd-tag-menu-root{
+.ticket .form_field.highlight_update:not(.fr-focus) .zd-tag-menu-root,
+.bQVvDw .ck-content pre{
   background:#222;
   background-color:#222;
   color:#ddd;
@@ -159,7 +160,8 @@ h3.title,
 .LRel,
 .LRdg,
 .LReg,
-.LRdf{
+.LRdf,
+.LRcu{
     color:#aaa!important;
 }
 .cBuFak:hover,
@@ -399,7 +401,8 @@ input,
 .LRcr,
 .LRfp,
 .LRdn,
-.LRgd{
+.LRgd,
+.bQVvDw .ck-content pre{
     border-color:#555;
 }
 #support-extension-search>div{
@@ -525,7 +528,8 @@ label[data-garden-id="forms.checkbox_label"]::before{
     background-color:#222!important;
     border-radius:9999px!important;
 }
-.apps header{
+.apps header,
+.bQVvDw .ck-content pre code{
     border:0
 }
 button[data-test-id="close-button"]>svg>path{
