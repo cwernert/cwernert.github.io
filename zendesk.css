@@ -54,7 +54,8 @@ article,
 .zLLnd:disabled,
 .zLLnd[aria-disabled="true"],
 .ticket .form_field.highlight_update:not(.fr-focus) .zd-tag-menu-root,
-.bQVvDw .ck-content pre{
+.bQVvDw .ck-content pre,
+.ticket-app-sidebar div{
   background:#222;
   background-color:#222;
   color:#ddd;
@@ -403,7 +404,8 @@ input,
 .LRfp,
 .LRdn,
 .LRgd,
-.bQVvDw .ck-content pre{
+.bQVvDw .ck-content pre,
+.brqXpT{
     border-color:#555;
 }
 #support-extension-search>div{
