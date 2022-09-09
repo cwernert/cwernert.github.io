@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Exported Zap Viewer</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<style type="text/css">
+	html,body,div,h1{
+		background: #222;
+		color: #ccc;
+		box-sizing: border-box;
+		margin: 0;
+	}
+	h1{
+		display: block;
+		text-align: center;
+	}
+	h1 span{
+		display: inline-block;
+		text-align: center;
+		padding: 30px;
+		border-bottom: 2px solid #666;
+	}
+	body>div{
+		float: left;
+		padding: 20px;
+	}
+	.left{
+		width: 30%;
+		border-right: 1px solid #666;
+	}
+	.right{
+		width: 70%;
+	}
+	textarea,#result{
+		box-sizing: border-box;
+		width: 100%;
+		background: #333;
+		border-radius: 3px;
+		border: 1px solid #666;
+		padding: 10px;
+		color: #ccc;
+	}
+	textarea{
+		height: 300px;
+	}
+	#result{
+		
+	}
+	code{
+		padding: 3px;
+		border-radius: 3px;
+		background: #333;
+	}
+	th{
+		text-align: left;
+		border-bottom: 1px solid #666;
+		padding-right: 20px;
+	}
+	td{
+		padding: 0 20px 20px 0;
+	}
+	a{
+		display: block;
+		margin: 30px auto 10px;
+		width: 300px;
+		text-align: center;
+		color: #fff;
+		background: rgb(255 79 0 / 10%);
+		border: 2px solid #ff4f00;
+		text-decoration: none;
+		padding: 10px 0;
+		border-radius: 5px;
+		transition: .3s ease;
+		outline: none;
+	}
+	a:hover{
+		background: rgb(255 79 0 / 100%)
+	}
+</style>
+</head>
+<body>
+	<h1><span>Exported Zap Viewer</span></h1>
+	<div class="left">
+		<p>Paste your exported JSON here:</p>
+		<textarea id="textarea"></textarea>
+		<p>Or upload your <code>exported-zap-{timestamp}.json</code> file here:</p>
+		<form enctype="multipart/form-data">
+			<input id="upload" type="file" accept="application/JSON" name="files[]" size=30>
+		</form>
+	</div>
+	<div class="right">
+		<p>Result:</p>
+		<div id="result">
+			<p>Upload or paste some exported Zap data to view it here.</p>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+	function handleFileSelect(evt) {
+		let files = evt.target.files;
+		let f = files[0];
+		let reader = new FileReader();
+		reader.onload = (function(theFile){
+			return function(e){
+				//console.log(e.target.result);
+				$('#textarea').html(e.target.result);
+				processExport();
+			};
+		})(f);
+		reader.readAsText(f);
+	}
+	function processExport(){
+		let valid = false;
+		let data = {};
+		try{
+			data = JSON.parse($("#textarea").val());
+			valid = true;
+		}
+		catch(err){
+			console.log("Failed to parse JSON.");
+			console.log(err);
+			$("#result").html("<p>Export could not be read (see console for error log).<br>Please try again.</p>");
+		}
+		if(valid){
+			if(data.zaps){
+				let result = {
+					"head": ["Zap Title","Status","Apps","Events"],
+					"rows": []
+				};
+				data.zaps.forEach(function(zap){
+					let apps = [];
+					let events = [];
+					let trigger = {};
+					for(const id in zap.nodes){
+						let node = zap.nodes[id];
+						if(node.parent_id==null){
+							trigger = node;
+						}
+						apps.push(node.selected_api);
+						events.push(node.action);
+					}
+					let status = "Active";
+					if(trigger.paused){status = "Paused";}
+					const row = [zap.title,status,apps.join(", "),events.join(", ")];
+					result.rows.push(row);
+				});
+				//console.log(result);
+				let csv = "";
+				$("#result").html('<table><tr class="head"></tr></table>');
+				result.head.forEach(function(cell){
+					$("#result table tr.head").append(`<th>${cell}</th>`);
+					csv+=`${cell},`;
+				});
+				result.rows.forEach(function(row){
+					$("#result table").append(`<tr><td>${row[0]}</td><td>${row[1]}</td><td>${row[2]}</td><td>${row[3]}</td></tr>`);
+					csv+=`\n"${row[0]}","${row[1]}","${row[2]}","${row[3]}"`;
+				});
+				$("#result").append(`<hr><a download="exported-zaps.csv" href="data:text/csv;charset=utf-8,${encodeURIComponent(csv)}">Download as CSV</a>`);
+			}else{
+				$("#result").html("<p>JSON does not contain Zap data. Please use exports from Zapier only.</p>");
+			}
+		}
+	}
+	document.getElementById('upload').addEventListener('change', handleFileSelect, false);
+	document.getElementById('textarea').addEventListener('change', processExport, false);
+	</script>
+</body>
+</html>
