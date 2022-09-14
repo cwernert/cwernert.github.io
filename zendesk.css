@@ -692,7 +692,22 @@ code,
 }
 
 /* slack side conversations */
-
 div[data-test-id="sc-thread-container"]{
     color:#222;
+}
+/* view buttons*/
+.bTNgya,
+.jbUZbR{
+    border-color:#666;
+    color:#666;
+}
+.bTNgya:hover,
+.bTNgya:active,
+.bTNgya:focus,
+.jbUZbR:hover,
+.jbUZbR:active,
+.jbUZbR:focus{
+    border-color:#aaa;
+    color:#aaa;
+    background-color:unset;
 }
