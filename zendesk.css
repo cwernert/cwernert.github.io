@@ -70,7 +70,8 @@ article,
 .icLGBZ .zendesk-editor--rich-text-container,
 .icLGBZ ::-webkit-scrollbar-track,
 div[data-test-id="ticket-editor-app-icon-view"],
-button[data-test-id="omnichannel-channel-switcher-button"]>svg{
+button[data-test-id="omnichannel-channel-switcher-button"]>svg,
+.bjJEoW{
   background:unset;
   background-color:unset;
 }
