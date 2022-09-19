@@ -55,7 +55,9 @@ article,
 .zLLnd[aria-disabled="true"],
 .ticket .form_field.highlight_update:not(.fr-focus) .zd-tag-menu-root,
 .bQVvDw .ck-content pre,
-.ticket-app-sidebar div{
+.ticket-app-sidebar div,
+div[data-test-id="views_views-list_container"],
+.LRca{
   background:#222;
   background-color:#222;
   color:#ddd;
