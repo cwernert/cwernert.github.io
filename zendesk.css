@@ -77,6 +77,9 @@ button[data-test-id="omnichannel-channel-switcher-button"]>svg,
   background:unset;
   background-color:unset;
 }
+.zendesk-editor--rich-text-container{
+    background-image:none;
+}
 #main_panes a:hover,
 #main_panes a:active,
 #main_panes a:focus,
