@@ -69,13 +69,13 @@ div[data-test-id="views_views-list_container"],
 }
 #main_panes a>div,
 #branding_header button>div,
-.icLGBZ .zendesk-editor--rich-text-container,
+.zendesk-editor--rich-text-container,
 .icLGBZ ::-webkit-scrollbar-track,
 div[data-test-id="ticket-editor-app-icon-view"],
 button[data-test-id="omnichannel-channel-switcher-button"]>svg,
 .bjJEoW{
-  background:unset;
-  background-color:unset;
+  background:unset!important;
+  background-color:unset!important;
 }
 .zendesk-editor--rich-text-container{
     background-image:none;
