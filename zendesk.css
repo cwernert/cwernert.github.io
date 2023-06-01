@@ -62,7 +62,8 @@ div[data-test-id="views_views-list_container"],
 .ifWwtY,
 .dNsthL,
 div[role="log"] article,
-.fwLKxM{
+.fwLKxM,
+div.ember-view>div{
   background:#222;
   background-color:#222;
   color:#ddd;
