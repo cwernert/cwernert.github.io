@@ -60,7 +60,9 @@ div[data-test-id="views_views-list_container"],
 .LRca,
 .kkTyyM,
 .ifWwtY,
-.dNsthL{
+.dNsthL,
+div[role="log"] article,
+.fwLKxM{
   background:#222;
   background-color:#222;
   color:#ddd;
