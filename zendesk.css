@@ -63,7 +63,9 @@ div[data-test-id="views_views-list_container"],
 .dNsthL,
 div[role="log"] article,
 .fwLKxM,
-div.ember-view>div{
+div.ember-view>div,
+div[data-test-id="sc-thread-container"]>div>div,
+div[data-test-id="threadMessage"]{
   background:#222;
   background-color:#222;
   color:#ddd;
@@ -166,7 +168,8 @@ h3.title,
 .LRcw,
 .iDSXyx,
 .liuBOZ,
-.bchAxh{
+.bchAxh,
+div[data-garden-container-id="containers.tooltip"]{
     color:#aaa;
 }
 #support-extension-search span,
