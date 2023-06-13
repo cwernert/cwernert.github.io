@@ -65,7 +65,8 @@ div[role="log"] article,
 .fwLKxM,
 div.ember-view>div,
 div[data-test-id="sc-thread-container"]>div>div,
-div[data-test-id="threadMessage"]{
+div[data-test-id="threadMessage"],
+#main_panes>section>div>div>div>div{
   background:#222;
   background-color:#222;
   color:#ddd;
